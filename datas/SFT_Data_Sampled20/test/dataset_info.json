@@ -1,0 +1,45 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "chat_template": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "golden": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ctx_length": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "language": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hop": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "org_pos": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "perspective": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

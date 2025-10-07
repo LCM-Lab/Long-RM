@@ -1,0 +1,117 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "extra_generate_kwargs": {},
+    "paragraph_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sub-paragraphs": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "word count": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Date": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "query": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context_and_question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "chosen_model": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reject_models": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "scores": {
+      "Llama-3.1-Nemotron-70B-Instruct-HF": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "Llama-3.3-70B-Instruct": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "MDCure-LLAMA3.1-70B-Instruct": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "Qwen-plus": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "Qwen2.5-72B-Instruct": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "conf": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "insert_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "chat_template": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "prompt_ctx_length": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "chosen": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rejects": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

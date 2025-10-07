@@ -1,0 +1,23 @@
+#general
+psutil
+pyyaml
+pandas
+tqdm
+gpustat
+nvitop
+modelscope # load personal dataset     
+addict     # modelscope required
+tabulate
+
+# llm eval
+# transformers==4.46.1 #stable
+transformers==4.51.1
+peft              # lora
+# flash-attn
+openai                # for api calling
+datasets
+accelerate
+
+#llm train
+deepspeed
+wandb
