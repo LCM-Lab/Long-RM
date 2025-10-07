@@ -13,19 +13,19 @@ pip install ring_flash_attn
 ## 🔥 Train
 To run the first training process:
 
-[GRM]
+### GRM
 ```bash
 bash scripts/sft.sh 
 ```
 
 To run the second training process:
 
-[GRM]
+### GRM
 ```bash
 bash bash scripts/simpo_grm.sh 
 ```
 
-[DisRM]
+### DisRM
 
 ```bash
 bash bash scripts/simpo_disrm.sh 
