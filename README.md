@@ -34,6 +34,8 @@ bash bash scripts/simpo_disrm.sh
 
 ## 📊 Evaluate
 
+### We provide the benchmark dataset and trained models in our [Modelscope](https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240).
+
 ### For Generative Model
 
 ```bash
@@ -47,8 +49,7 @@ python evaluate/eval.py --model-path ./LongReward_Qwen3-8B --data-path ./LongRew
 ```bash
 modelscope download LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B --repo-type model --local_dir ./LongReward_Skywork-Reward-V2-Llama-3.1-8B
 
-modelscope download LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B --repo-type model --local_dir ./LongReward_Skywork-Reward-V2-Llama-3.1-8B
+python evaluate/eval.py --model-path ./LongReward_Skywork-Reward-V2-Llama-3.1-8B --data-path ./LongReward-Bench --is-disrm
 ```
 
-### We provide the benchmark dataset and trained models in our [modelscope](https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240)
 
