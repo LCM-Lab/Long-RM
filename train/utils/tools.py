@@ -1,5 +1,5 @@
 from typing import Type, TypeVar, Callable, List, Tuple, Iterable, Literal, Union
-import os, random, itertools
+import os, random, itertools, pandas as pd
 from collections import defaultdict
     
 import functools
@@ -40,6 +40,30 @@ def save_pkl(obj: object, path: str):
 def save_json(obj: Union[list, dict], path: str, **kwargs):
     with open(path,"w") as f:
         json.dump(obj, f, **kwargs) 
+
+
+@makedirs
+def save_jsonl(list_data: list, path: str):
+    with open(path, "w") as f:
+        for data in list_data:
+            json.dump(data, f, ensure_ascii=False)
+            f.write("\n")
+
+def read_jsonl(path: str, encoding: str = 'utf-8') -> List[dict]:
+    with open(path, 'r', encoding= encoding) as file:  
+        content = [json.loads(line.strip()) for line in file]  
+    return content
+@makedirs
+def save_csv(obj: Union[dict, pd.DataFrame], path: str):
+    if isinstance(obj, dict):
+        if len(obj) and (not (type(next(iter(obj.values()))) \
+                              in (list, tuple))):
+            for k,v in obj.items():
+                obj[k] = [v]
+        obj = pd.DataFrame(obj)[list(obj.keys())]
+    obj.to_csv(path)
+
+
 
 def Identity(x): return x
 

@@ -1,6 +1,4 @@
 #general
-psutil
-pyyaml
 pandas
 tqdm
 gpustat
@@ -9,15 +7,21 @@ modelscope # load personal dataset
 addict     # modelscope required
 tabulate
 
-# llm eval
-# transformers==4.46.1 #stable
+# llm evaluate
+torch==2.6.0
+datasets==4.0.0
 transformers==4.51.1
 peft              # lora
-# flash-attn
-openai                # for api calling
+
+openai
+fastchat
+
+vllm==0.8.3
 datasets
 accelerate
 
-#llm train
+#train
+flash-attn
+ring-flash-attn
 deepspeed
 wandb

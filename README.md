@@ -32,5 +32,23 @@ bash bash scripts/simpo_disrm.sh
 ```
 
 
+## 📊 Evaluate
 
+### For Generative Model
+
+```bash
+modelscope download LCM_group/LongReward_Qwen3-8B --repo-type model --local_dir ./LongReward_Qwen3-8B
+
+python evaluate/eval.py --model-path ./LongReward_Qwen3-8B --data-path ./LongReward-Bench
+```
+
+### For Discriminative Model:
+
+```bash
+modelscope download LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B --repo-type model --local_dir ./LongReward_Skywork-Reward-V2-Llama-3.1-8B
+
+modelscope download LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B --repo-type model --local_dir ./LongReward_Skywork-Reward-V2-Llama-3.1-8B
+```
+
+### We provide the benchmark dataset and trained models in our [modelscope](https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240)
 
