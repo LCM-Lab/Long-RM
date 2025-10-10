@@ -9,6 +9,16 @@
 
 ---
 
+## 📅 Update Log
+
+1. **2025-10-09** — 🚀 Code released: Full training & evaluation pipeline now open-sourced.
+
+2. **Coming Soon** — LongReward-Bench dataset will be released on Hugging Face Datasets.
+
+3. **Coming Soon** — Releasing models trained with LongRM.
+
+---
+
 ## 💻 Environment & Installation
 
 Set up your training environment with the following steps:
