@@ -13,9 +13,9 @@
 
 1. **2025-10-09** — 🚀 Code released: Full training & evaluation pipeline now open-sourced.
 
-2. **Coming Soon** — LongReward-Bench dataset will be released on Hugging Face Datasets.
+2. **2025-10-11** — LongRMs are released on [🤗 Huggingface LongRM Collections](https://huggingface.co/collections/LCM-Lab/longrm-68ea4cefb68ff927efbe9187) and Long-RewardBench is released on [🤗 Huggingface Long-RewardBench Dataset](https://huggingface.co/datasets/LCM-Lab/LongRewardBench).
 
-3. **Coming Soon** — Releasing models trained with LongRM.
+3. **Coming Soon** — We are continually improving Long-RewardBench.
 
 ---
 
