@@ -127,3 +127,18 @@ Please open an **[Issue](https://github.com/LCM-Lab/LongRM/issues)** or submit a
 ## 📬 Contact
 
 Questions? Suggestions? Reach out at: zctang2000@gmail.com
+
+---
+
+## 📚 Cite Us
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{tang2025longrm,
+  title={LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling},
+  author={Tang, Zecheng and Ji, Baibei and Qiu, Quantong and Wang, Haitian and Liang, Xiaobo and Li, Juntao and Zhang, Min},
+  journal={arXiv preprint arXiv:2510.06915},
+  year={2025}
+}
+```
