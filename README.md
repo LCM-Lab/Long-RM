@@ -1,11 +1,10 @@
 # 📜 LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling
 
 > **Paper**: [https://arxiv.org/pdf/2510.06915](https://arxiv.org/pdf/2510.06915)  
-> **Models**:  
-> - 🤖 Generative RM: [`LCM_group/LongReward_Qwen3-8B`](https://modelscope.cn/models/LCM_group/LongReward_Qwen3-8B)  
-> - 🔍 Discriminative RM: [`LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B`](https://modelscope.cn/models/LCM_group/LongReward_Skywork-Reward-V2-Llama-3.1-8B)  
->  
-> *Pushing the limits of reward modeling beyond 128K tokens — with memory-efficient training and a new benchmark for long-context reward model.*
+> **Models**: [ModelScope LongRM Collections](https://www.modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240) / [HuggingFace LongRM Collections](https://huggingface.co/collections/LCM-Lab/longrm-68ea4cefb68ff927efbe9187)  
+> **Long-RewardBench V1**: [ModelScope](https://www.modelscope.cn/datasets/LCM_group/LongReward-Bench-V1) / [HuggingFace](https://huggingface.co/datasets/LCM-Lab/LongRewardBench)
+> 
+> *Pushing the limits of reward modeling beyond 128K tokens — with memory-efficient training and a new benchmark for long-context reward models.*
 
 ---
 
