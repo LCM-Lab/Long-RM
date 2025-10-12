@@ -86,8 +86,9 @@ bash scripts/simpo_disrm.sh
 
 We provide a **new benchmark dataset — `LongReward-Bench`** — and **pretrained models** on **ModelScope** for easy evaluation.
 
-🔗 **Dataset & Models Hub**:  
-👉 [https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240](https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240)
+🔗 **Dataset & Models Download**
+
+⚠️ We provide the ModelScope links [👉 Here](https://modelscope.cn/collections/LongReward-Model-and-Dataset-2abfa246c09240). If you wish to use Hugging Face–hosted models and datasets, please refer to the download links at the beginning of the README to obtain the corresponding models and datasets.
 
 ---
 
@@ -131,7 +132,7 @@ Questions? Suggestions? Reach out at: zctang2000@gmail.com
 
 ## 📚 Cite Us
 
-If you find this work useful, please cite our paper:
+If you find this work useful, please cite our papers:
 
 ```bibtex
 @article{tang2025longrm,
@@ -139,5 +140,13 @@ If you find this work useful, please cite our paper:
   author={Tang, Zecheng and Ji, Baibei and Qiu, Quantong and Wang, Haitian and Liang, Xiaobo and Li, Juntao and Zhang, Min},
   journal={arXiv preprint arXiv:2510.06915},
   year={2025}
+}
+
+@article{tang2025loom,
+    title={LOOM-Scope: a comprehensive and efficient LOng-cOntext Model evaluation framework},
+    author={Tang, Zecheng and Wang, Haitian and Qiu, Quantong and Ji, Baibei and Sun, Ruoxi and Zhou, Keyan and Li, Juntao and Zhang, Min},
+    journal={arXiv preprint arXiv:2507.04723},
+    year={2025}
+    }
 }
 ```
